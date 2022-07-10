@@ -9,7 +9,6 @@ executing==0.8.3
 Flask==2.1.2
 geographiclib==1.52
 geopy==2.2.0
-gunicorn==20.1.0
 ipykernel==6.15.1
 ipython==8.4.0
 itsdangerous==2.1.2
