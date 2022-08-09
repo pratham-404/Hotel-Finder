@@ -8,12 +8,12 @@ import csv
 from pyparsing import line
 
 def get_latitude(x):
-  if hasattr(x,'latitude') and (x.latitude is not None): 
-     return x.latitude
+    if hasattr(x,'latitude') and (x.latitude is not None): 
+        return x.latitude
 
 def get_longitude(x):
-  if hasattr(x,'longitude') and (x.longitude is not None): 
-     return x.longitude
+    if hasattr(x,'longitude') and (x.longitude is not None): 
+        return x.longitude
 
 class Range:
     def __init__(self,address,max_distance):
@@ -107,5 +107,3 @@ class Range:
 
                     self.count+=1;
                     self.collection.append(element)
-          
-                    

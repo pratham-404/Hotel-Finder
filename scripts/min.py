@@ -2,13 +2,13 @@ from geopy.geocoders import Nominatim
 from geopy import distance
 import csv
 
-def get_latitude(x):
-  if hasattr(x,'latitude') and (x.latitude is not None): 
-     return x.latitude
+def get_latitude(x):    
+    if hasattr(x,'latitude') and (x.latitude is not None): 
+        return x.latitude
 
 def get_longitude(x):
-  if hasattr(x,'longitude') and (x.longitude is not None): 
-     return x.longitude
+    if hasattr(x,'longitude') and (x.longitude is not None): 
+        return x.longitude
 
 class Min:
     def __init__(self,address):
@@ -99,11 +99,3 @@ class Min:
                     p+=a    
 
             self.point_of_interest = ls
-
-    # def to_json(self):
-    #     j = json.dumps(self.__dict__,indent=4)
-    #     # print(j)
-    #     return j
-
-# r1 = Min("Matunga, Mumbai")
-# r1.to_json()
