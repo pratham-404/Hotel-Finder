@@ -24,4 +24,6 @@ def search():
         return "Invalid Address"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
+else:
+    gunicorn_app = app()
