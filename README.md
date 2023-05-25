@@ -65,3 +65,7 @@ Output: [click](https://hotel-finder-kw9i.onrender.com/search?location=Matunga,M
 
 ## Contributing 🤝
 Contributions to Hotel-Finder are welcome! If you'd like to contribute, please create a pull request with your proposed changes. 👨‍💻
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
